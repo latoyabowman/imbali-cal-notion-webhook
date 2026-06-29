@@ -2,7 +2,8 @@
   "name": "imbali-cal-notion-webhook",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "@notionhq/client": "^2.2.15"
+  "description": "Receives Cal.com BOOKING_PAID webhooks and creates Notion CRM records.",
+  "engines": {
+    "node": ">=18"
   }
 }
